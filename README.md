@@ -5,8 +5,8 @@
 
 
 # Workflow
-* On ingest, a checksum should be created and stored in the metadata store.
-* Do fixity check daily for the files uploaded to S3 every 90 days
+* On ingest, a checksum should be created and stored.
+* Do fixity check daily for the file's last fixity check date on or before 90 days
 * Send daily email with a summary report (e.g. Today, fixity check # files, # matched, # mismatched, etc) 
 
 # Doc
