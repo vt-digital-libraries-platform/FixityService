@@ -13,6 +13,9 @@
 * Execute fixity check pipeline
 * Send daily email with a summary report (e.g. Today, fixity check # files, # matched, # mismatched, etc) 
 
+# Launch CloudFormation stack
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?&templateURL=https://steps-fixity-us-east-1.s3.amazonaws.com/steps-fixity-solution/version1/serverless-fixity-for-digital-preservation-compliance.template)
+
 # Doc
 * https://webapps.es.vt.edu/confluence/display/LIBTD/DLP%3A+Fixity+Service
 * https://webapps.es.vt.edu/confluence/display/LIBTD/Digital+Libraries+Platform
