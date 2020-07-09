@@ -31,5 +31,15 @@ Make sure all checkboxes under Capabilities section are **CHECKED**
 
 Click *Create stack*
 
+# Usage
+* Example task json file
+```
+{"Bucket": "preservation-bucket", "Key": "filename.tif", "OutputBucket": "fixity-output-bucket"}
+```
+* Execuate Lambda function
+```
+aws stepfunctions start-execution --state-machine-arn arn:aws:states:us-east-1:youraccountnumber:stateMachine:SO0081-StackName-serverless-fixity --input file://taskfile.json
+```
+
 # Special thanks to
 * [Serverless Fixity for Digital Preservation Compliance](https://aws.amazon.com/solutions/implementations/serverless-fixity-for-digital-preservation-compliance/)
