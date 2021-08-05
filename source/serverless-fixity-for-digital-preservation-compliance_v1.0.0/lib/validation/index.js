@@ -11,6 +11,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const AWS = require('aws-sdk');
 const PATH = require('path');
+const delay = ms => new Promise(res => setTimeout(res, ms));
 
 const {
   mxUtils,
@@ -196,6 +197,7 @@ class ChecksumValidation extends BaseStateData {
     var outputFilename = timestamp.toString() + ".json";
     var outputBucket = this.outputBucket;
     console.log("OutputBucket: " + outputBucket);
+    console.log("OutputFilename: " + outputFilename);
 
     const params = {
       Bucket: outputBucket,
@@ -221,6 +223,7 @@ class ChecksumValidation extends BaseStateData {
 
     var content = JSON.stringify(this.responseData());
     this.uploadFile(content);
+    await delay(1000);
 
   }
 

@@ -15,9 +15,9 @@ Mappings:
     Solution:
         Project:
             Id: SO0081
-            Version: "version1"
+            Version: "version2"
         Template:
-            KeyPrefix: "steps-fixity-solution/version1"
+            KeyPrefix: "steps-fixity-solution/version2"
             S3Bucket: "steps-fixity"
         Package:
             CustomResourceX: "custom-resources_v1.0.0.zip"

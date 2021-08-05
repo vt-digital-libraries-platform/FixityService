@@ -11,7 +11,7 @@
 
 # Deploy Fixity Service application using CloudFormation stack
 #### Step 1: Launch CloudFormation stack
-[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?&templateURL=https://steps-fixity-us-east-1.s3.amazonaws.com/steps-fixity-solution/version1/serverless-fixity-for-digital-preservation-compliance.template)
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?&templateURL=https://steps-fixity-us-east-1.s3.amazonaws.com/steps-fixity-solution/version2/serverless-fixity-for-digital-preservation-compliance.template)
 
 Click *Next* to continue
 
